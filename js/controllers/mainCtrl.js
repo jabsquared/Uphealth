@@ -1,4 +1,4 @@
-app.controller('mainCtrl', function($scope, $http, socket9, $localStorage, $ionicBackdrop, $ionicModal, $ionicSlideBoxDelegate, $ionicScrollDelegate, $cordovaSocialSharing) {
+app.controller('mainCtrl', function($scope, $http, $localStorage, $ionicBackdrop, $ionicModal, $ionicSlideBoxDelegate, $ionicScrollDelegate, $cordovaSocialSharing) {
   // 4
   $scope.$storage = $localStorage.$default({
     data : [{
