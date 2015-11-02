@@ -25,40 +25,9 @@
     color: $white;
   }
 
-  form {
-    // margin: 0 auto;
-    // width: 81vw;
-    // label {
-    //   font-size: 36px;
-    //   color: $white;
-    // }
-
-    input {
-      // border-radius: 45px !important;
-
-      border-bottom-left-radius: 45px !important;
-      border-top-left-radius: 45px !important;
-      // width: 45vw;
-      background-color: $black;
-      border-color: transparent;
-    }
-
-    input:focus {
-      color: $white;
-      border-color: $orange;
-    }
-
-    button {
-      border-bottom-left-radius: 0px;
-      border-top-left-radius: 0px;
-      width: 100%;
-    }
-    .no-pan-btn {
-      padding-left: 0 !important;
-    }
-    .no-pan-inp {
-      padding-right: 4.5px !important;
-    }
+  .more:hover {
+    color: $white;
   }
+
   @include placeholder-color;
 }
