@@ -16,9 +16,9 @@ Template.footer
         $('#success-alert').fadeIn(900)
           .delay(900)
           .fadeOut(900);
+        //TODO: Add a reminder to test sarah beta
       }
       if (idea) {
-
         Meteor.call('addIdea', idea, showAlert);
       }
     }
